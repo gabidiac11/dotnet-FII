@@ -19,10 +19,10 @@ This module is only parsing data from file to a list of list of strings.
 
 ### Code design
 
-Part One: Weather Data and Part Two: Soccer League Table are 2 separate modules that implement common interfaces and abstract classes from `LAB_2/lab2.Core`. 
-PartOne and PartTwo:
-         - defines the entity data to parse into
-         - defines how a list of strings instantiate the entity (by  implmenting the IParser from lab2.Core)
-         - the file to extract data from (by implementing the IProvider interface and by inheriting Provider abstract class from lab2.Core), 
-         - what 2 properties to use for solving the kata problems
-         - how to print the result on the screen the result
+         Part One: Weather Data and Part Two: Soccer League Table are 2 separate modules that implement common interfaces and abstract classes from `LAB_2/lab2.Core`. 
+         PartOne and PartTwo:
+                  - defines the entity data to parse into
+                  - defines how a list of strings instantiate the entity (by  implmenting the IParser from lab2.Core)
+                  - the file to extract data from (by implementing the IProvider interface and by inheriting Provider abstract class from lab2.Core), 
+                  - what 2 properties to use for solving the kata problems
+                  - how to print the result on the screen the result
