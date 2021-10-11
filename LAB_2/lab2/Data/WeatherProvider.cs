@@ -2,7 +2,9 @@
 using lab2_partOne.Data.Core;
 using lab2_partOne.Data.Parser;
 using lab2_partOne.Entities;
+using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace lab2_partOne.Data
 {
@@ -11,7 +13,7 @@ namespace lab2_partOne.Data
         public WeatherProvider()
         {
             Parser = new WeatherParser();
-            Source = "C:/Users/Gabi/source/repos/lab1/lab2/Data/Files/weather.dat";
+            Source = Path.Combine(Environment.CurrentDirectory, @"..\..\..\Data\Files\", "weather.dat");
         }
     }
 }
