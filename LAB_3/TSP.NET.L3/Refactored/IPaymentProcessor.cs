@@ -8,6 +8,6 @@ namespace TSP.NET.L3.Refactored
 {
     public interface IPaymentProcessor
     {
-        void Pay();
+        void Pay(Product product);
     }
 }

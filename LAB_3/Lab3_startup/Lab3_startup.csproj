@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TSP.NET.L3\TSP.NET.L3.csproj" />
+  </ItemGroup>
+
 </Project>
